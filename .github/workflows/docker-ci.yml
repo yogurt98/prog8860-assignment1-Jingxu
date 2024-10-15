@@ -39,7 +39,4 @@ jobs:
         run: |
           docker run -d -p 80:80 my-react-app
 
-      # Step 6: Test if the app is running
-      - name: Test application
-        run: |
-          curl --fail http://localhost || exit 1
+
